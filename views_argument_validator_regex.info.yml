@@ -1,0 +1,8 @@
+name: 'Views Contextual Filter Validator: Regular Expression (regex)'
+description: Regular expression argument validator for contextual filters.
+type: module
+package: Views
+core: 8.x
+
+dependencies:
+  - drupal:views

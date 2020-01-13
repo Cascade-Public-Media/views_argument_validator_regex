@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * @file
+ * Module file for Contextual Filter Range Validator.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function views_argument_validator_regex_help($route_name, RouteMatchInterface $route_match) {
+  $output = '';
+
+  switch ($route_name) {
+    case 'help.page.views_argument_validator_regex':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('This module adds Views contextual filter validator,
+        "Regular expression (regex)" that can be used to validate values using a
+        supplied regular expression.') . '</p>';
+  }
+
+  return $output;
+}

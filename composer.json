@@ -1,0 +1,19 @@
+{
+  "name": "drupal/views_argument_validator_regex",
+  "description": "Regular expression argument validator for contextual filters.",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "homepage": "https://drupal.org/project/views_argument_validator_regex",
+  "authors": [
+    {
+      "name": "Christopher C. Wells (wells)",
+      "homepage": "https://www.drupal.org/u/wells",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/views_argument_validator_regex?version=8.x",
+    "source": "http://cgit.drupalcode.org/views_argument_validator_regex"
+  }
+}
