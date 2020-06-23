@@ -3,7 +3,6 @@
   "description": "Regular expression argument validator for contextual filters.",
   "type": "drupal-module",
   "license": "GPL-2.0+",
-  "minimum-stability": "dev",
   "homepage": "https://drupal.org/project/views_argument_validator_regex",
   "authors": [
     {
@@ -15,5 +14,19 @@
   "support": {
     "issues": "https://www.drupal.org/project/issues/views_argument_validator_regex?version=8.x",
     "source": "http://cgit.drupalcode.org/views_argument_validator_regex"
-  }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url":  "https://packages.drupal.org/8"
+    }
+  ],
+  "require": {
+    "drupal/core": "^8 || ^9"
+  },
+  "require-dev": {
+    "drupal/core-dev": "^8 || ^9"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
